@@ -108,6 +108,15 @@ git commit -m "Add initial README"     # Commit the README file
 ```
 *In this example, we create a `README.md` file, stage it, and commit it.*
 
+3. **Push Files**
+   - Push your files.
+
+      ```bash
+      git push
+      ```
+
+         *This command pushes the changes to the repository.*
+
 ---
 
 ### 5. Troubleshooting Common Issues
