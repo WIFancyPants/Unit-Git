@@ -4,6 +4,7 @@ By the end of this lesson, you will be able to
 - Add files to staging area.
 - Commit changes with meaningful messages.
 - Explain the difference between staging and committing.
+- Push changes to repository.
 
 ---
 
@@ -128,6 +129,23 @@ git commit -m "Update index.html with new header"  # Commit staged changes
 
 *Explanation*: 
 - `git pull origin main` fetches and merges changes from the remote `main` branch into your local `main` branch. This ensures your local repository is up to date before making new changes.
+
+#### 6. Pushing Changes
+
+**Command: `git push`**
+
+- **Purpose**: Push your changes to the repository.
+- **Syntax**:
+    ```bash
+    git push
+    ```
+
+- **Example**:
+    ```bash
+    git push #Push the latest changes to the 'main' branch
+    ```
+  *Explanation*:
+  - `git push` merges your changes back into the remote `main` branch from your local `main` branch.
 
 ---
 
